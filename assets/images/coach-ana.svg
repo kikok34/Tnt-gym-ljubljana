@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <linearGradient id="bg-ana" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#281423" />
+      <stop offset="60%" stop-color="#170c15" />
+      <stop offset="100%" stop-color="#0b060a" />
+    </linearGradient>
+    <radialGradient id="light-ana" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg-ana)" />
+  <circle cx="420" cy="210" r="280" fill="url(#light-ana)" />
+  <rect x="20" y="20" width="560" height="660" rx="16" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+  
+  <g transform="translate(300, 290)">
+    <circle cx="0" cy="-60" r="65" fill="#30182b" stroke="#ec4899" stroke-width="3" />
+    <path d="M -90 120 C -90 0, 90 0, 90 120 Z" fill="#30182b" stroke="#ec4899" stroke-width="2" />
+    <circle cx="0" cy="60" r="16" fill="#ec4899" />
+  </g>
+  
+  <text x="300" y="470" font-family="'Oswald', sans-serif" font-size="30" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">ANA LIPOVŠEK</text>
+  <text x="300" y="505" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#fbcfe8" text-anchor="middle">Trenerka boksa za otroke</text>
+  <text x="300" y="535" font-family="'Inter', sans-serif" font-size="13" font-weight="400" fill="#8d94a3" text-anchor="middle">Skupini 4-8 let in 8-12 let • Športna pedagogika</text>
+  
+  <rect x="180" y="615" width="240" height="34" rx="17" fill="rgba(0,0,0,0.65)" stroke="rgba(255,255,255,0.15)" />
+  <text x="300" y="637" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#ec4899" text-anchor="middle">📷 FOTO / ANA.JPG</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <linearGradient id="bg-gasper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241416" />
+      <stop offset="60%" stop-color="#140b0d" />
+      <stop offset="100%" stop-color="#090607" />
+    </linearGradient>
+    <radialGradient id="light-gasper" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ff3b30" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg-gasper)" />
+  <circle cx="420" cy="210" r="280" fill="url(#light-gasper)" />
+  <rect x="20" y="20" width="560" height="660" rx="16" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+  
+  <!-- Stylized Coach Silhouette -->
+  <g transform="translate(300, 290)">
+    <circle cx="0" cy="-60" r="65" fill="#2d1719" stroke="#ff3b30" stroke-width="3" />
+    <path d="M -90 120 C -90 0, 90 0, 90 120 Z" fill="#2d1719" stroke="#ff3b30" stroke-width="2" />
+    <!-- Glove/MMA accent -->
+    <circle cx="-50" cy="80" r="18" fill="#ff3b30" />
+    <circle cx="50" cy="80" r="18" fill="#ff3b30" />
+  </g>
+  
+  <text x="300" y="470" font-family="'Oswald', sans-serif" font-size="30" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">GAŠPER SODNIK</text>
+  <text x="300" y="505" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#ff9d97" text-anchor="middle">Trener MMA | 10+ let izkušenj</text>
+  <text x="300" y="535" font-family="'Inter', sans-serif" font-size="13" font-weight="400" fill="#8d94a3" text-anchor="middle">Tristar Gym Montreal • Tekmovalec MMA lige</text>
+  
+  <rect x="180" y="615" width="240" height="34" rx="17" fill="rgba(0,0,0,0.65)" stroke="rgba(255,255,255,0.15)" />
+  <text x="300" y="637" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#ff7a18" text-anchor="middle">📷 FOTO / GASPER.JPG</text>
+</svg>

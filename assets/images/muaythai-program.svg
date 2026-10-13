@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg-mt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12241d" />
+      <stop offset="100%" stop-color="#080e0b" />
+    </linearGradient>
+    <radialGradient id="light-mt" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-mt)" />
+  <circle cx="640" cy="120" r="320" fill="url(#light-mt)" />
+  <rect x="20" y="20" width="760" height="460" rx="14" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+  
+  <g transform="translate(400, 210)">
+    <circle cx="0" cy="0" r="52" fill="#132a21" stroke="#10b981" stroke-width="2.5" />
+    <path d="M -15 15 L 0 -15 L 15 15 Z" fill="#10b981" />
+  </g>
+  <text x="400" y="310" font-family="'Oswald', sans-serif" font-size="28" font-weight="700" letter-spacing="2" fill="#ffffff" text-anchor="middle">KICKBOX &amp; MUAY THAI</text>
+  <text x="400" y="340" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#6ee7b7" text-anchor="middle">Tajski boks za MMA, nožni udarci in klinč | Trener Luka Martinec</text>
+  <rect x="290" y="430" width="220" height="30" rx="15" fill="rgba(0,0,0,0.6)" stroke="rgba(255,255,255,0.15)" />
+  <text x="400" y="450" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#10b981" text-anchor="middle">📷 FOTO / LUKA-MARTINEC.JPG</text>
+</svg>

@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T'n'T Gym Ljubljana | BJJ, MMA, boks in kickbox v Črnučah</title>
+  <meta name="description" content="T'n'T Gym Ljubljana – vrhunski treningi BJJ (brazilski jiu-jitsu), MMA, boksa in muay thai v Ljubljani (Črnuče). Za začetnike in nadaljevalce. Prvi trening je brezplačen!">
+  <meta name="keywords" content="BJJ Ljubljana, MMA Ljubljana, boks Ljubljana, kickbox Ljubljana, brazilski jiu-jitsu Ljubljana, borilne veščine Ljubljana, borilne veščine Črnuče">
+  <link rel="canonical" href="https://www.tnt-gym.si/">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sl_SI">
+  <meta property="og:url" content="https://www.tnt-gym.si/">
+  <meta property="og:title" content="T'n'T Gym Ljubljana | BJJ, MMA, boks in kickbox">
+  <meta property="og:description" content="Treniraj borilne veščine v sproščenem in profesionalnem vzdušju v Črnučah. Brezplačen prvi trening!">
+  <meta property="og:image" content="assets/images/hero-gym.svg">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org JSON-LD Structured Data for LocalBusiness & SportsActivityLocation -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["SportsActivityLocation", "ExerciseGym"],
+    "@id": "https://www.tnt-gym.si/#gym",
+    "name": "T'n'T Gym Ljubljana",
+    "alternateName": "TnT Gym Črnuče",
+    "description": "Klub borilnih veščin v Ljubljani (Črnuče): brazilski jiu-jitsu (BJJ), MMA, boks in muay thai za začetnike, rekreativce in tekmovalce.",
+    "url": "https://www.tnt-gym.si/",
+    "telephone": "+38631784174",
+    "priceRange": "50 € - 120 €",
+    "currenciesAccepted": "EUR",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Cesta 24. junija 23",
+      "addressLocality": "Ljubljana-Črnuče",
+      "postalCode": "1231",
+      "addressCountry": "SI"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.09552,
+      "longitude": 14.52722
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Friday"],
+        "opens": "16:30",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Thursday",
+        "opens": "16:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "10:00",
+        "closes": "12:30"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/tntcrnuce",
+      "https://www.instagram.com/tntcrnuce/"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. STICKY HEADER
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="T'n'T Gym Domov">
+        <span>T’N’T<span class="logo-accent">.</span>GYM</span>
+        <span class="brand-badge">LJUBLJANA</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" aria-label="Glavna navigacija">
+        <div class="nav-dropdown">
+          <a href="#programi" class="nav-link">Programi ▾</a>
+          <div class="nav-dropdown-menu">
+            <a href="bjj.html" class="nav-dropdown-item">BJJ (Brazilski jiu-jitsu)</a>
+            <a href="mma.html" class="nav-dropdown-item">MMA (Mešane borilne veščine)</a>
+            <a href="boks.html" class="nav-dropdown-item">Boks &amp; Boks dame</a>
+            <a href="kickbox.html" class="nav-dropdown-item">Kickbox in Muay Thai</a>
+            <a href="otroci.html" class="nav-dropdown-item">Boks za otroke (5-12 let)</a>
+          </div>
+        </div>
+        <a href="urnik.html" class="nav-link">Urnik</a>
+        <a href="cenik.html" class="nav-link">Cenik</a>
+        <a href="trenerji.html" class="nav-link">Trenerji</a>
+        <a href="kontakt.html" class="nav-link">Lokacija</a>
+        <a href="kontakt.html#kontakt" class="nav-link">Kontakt</a>
+      </nav>
+
+      <!-- Prominent Header CTA -->
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button type="button" class="btn btn-primary btn-sm btn-booking-trigger" data-program="">
+          Rezerviraj brezplačen prvi trening
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="menu-toggle" aria-label="Odpri navigacijski meni" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" aria-label="Mobilni meni">
+    <div>
+      <div style="margin-bottom: 2rem;">
+        <span class="brand-logo">T’N’T<span class="logo-accent">.</span>GYM</span>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">Črnuče, Ljubljana</p>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link active">Domov</a>
+        <a href="bjj.html" class="mobile-nav-link">BJJ</a>
+        <a href="mma.html" class="mobile-nav-link">MMA</a>
+        <a href="boks.html" class="mobile-nav-link">Boks</a>
+        <a href="kickbox.html" class="mobile-nav-link">Kickbox &amp; Muay Thai</a>
+        <a href="otroci.html" class="mobile-nav-link">Otroški boks</a>
+        <a href="urnik.html" class="mobile-nav-link">Urnik</a>
+        <a href="cenik.html" class="mobile-nav-link">Cenik</a>
+        <a href="trenerji.html" class="mobile-nav-link">Trenerji</a>
+        <a href="kontakt.html" class="mobile-nav-link">Lokacija &amp; Kontakt</a>
+      </nav>
+    </div>
+
+    <div style="margin-top: 2rem; border-top: 1px solid var(--border-subtle); padding-top: 1.5rem;">
+      <button type="button" class="btn btn-primary btn-full btn-booking-trigger" data-program="">
+        Rezerviraj brezplačen trening
+      </button>
+      <div style="margin-top: 1rem; text-align: center; font-size: 0.85rem; color: var(--text-muted);">
+        📞 031 784 174 (Toni)
+      </div>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       2. HERO SECTION
+       ========================================================================= -->
+  <section class="hero" id="hero">
+    <!-- Martial Arts Training Media Background -->
+    <div class="hero-media-bg">
+      <!-- 
+        FOTO ZAZNAMEK: Tu lahko zamenjate spodnji SVG s pravo sliko dvorane ali treninga,
+        npr. src="img/tnt/rupa1-2.jpg" ali kratek zankasti video treninga.
+      -->
+      <img src="assets/images/hero-gym.svg" alt="Trening borilnih veščin v T'n'T Gym Ljubljana" width="1200" height="800">
+    </div>
+    <div class="hero-overlay-gradient"></div>
+
+    <div class="container hero-content">
+      <div class="hero-pill">
+        <span>⚡ Brezplačen prvi obisk za vse začetnike</span>
+      </div>
+
+      <h1 class="heading-hero">
+        BJJ, MMA, BOKS IN KICKBOX <span class="text-gradient">V LJUBLJANI</span>
+      </h1>
+
+      <p class="lead" style="margin-top: 1.25rem; max-width: 650px;">
+        Treniraj v prijaznem klubu v Črnučah – ne glede na starost ali izkušnje. Prvi trening je brezplačen.
+      </p>
+
+      <div class="hero-actions">
+        <button type="button" class="btn btn-primary btn-lg btn-booking-trigger" data-program="">
+          Rezerviraj brezplačen prvi trening
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <a href="#urnik" class="btn btn-secondary btn-lg">
+          Poglej urnik
+        </a>
+      </div>
+
+      <!-- Social Proof / Stats Strip -->
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">Let tradicije v Črnučah</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">5</span>
+          <span class="stat-label">Borilnih disciplin</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Začetnikom prijazno</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">0 €</span>
+          <span class="stat-label">Prvi preizkusni trening</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. PROGRAM OVERVIEW (4 VISUALLY STRONG CARDS + KIDS BADGE)
+       ========================================================================= -->
+  <section class="section" id="programi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Programi vadbe</span>
+        <h2 class="heading-section">Izberi svojo borilno disciplino</h2>
+        <p class="lead">Vsi programi potekajo pod vodstvom licenciranih in izkušenih trenerjev. Skupine so prilagojene tako začetnikom kot nadaljevalcem.</p>
+      </div>
+
+      <div class="grid-4">
+        <!-- 1. BJJ Card -->
+        <article class="program-card">
+          <div class="program-image-wrap">
+            <span class="program-badge">BJJ</span>
+            <!-- FOTO: Zamenjajte z realno fotografijo BJJ treninga (npr. ziga.jpg) -->
+            <img src="assets/images/bjj-program.svg" alt="Trening brazilskega jiu-jitsa BJJ Ljubljana" loading="lazy">
+          </div>
+          <div class="program-card-body">
+            <div class="program-title">
+              <h3 class="heading-card">BJJ – brazilski jiu-jitsu</h3>
+            </div>
+            <div class="program-level">
+              <span>● Za začetnike in napredne</span>
+            </div>
+            <p class="program-desc">
+              Borba v parterju brez kimone (No-Gi grappling). Tehnika obvladovanja nasprotnika z vzvodi, meti in davljenji – moč ni pogoj za uspeh.
+            </p>
+            <div class="program-footer-actions">
+              <a href="bjj.html" class="btn btn-secondary btn-sm" style="flex: 1;">Več o BJJ</a>
+              <button type="button" class="btn btn-primary btn-sm btn-booking-trigger" data-program="BJJ">
+                Rezerviraj brezplačen trening
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. MMA Card -->
+        <article class="program-card">
+          <div class="program-image-wrap">
+            <span class="program-badge brand">MMA</span>
+            <!-- FOTO: Zamenjajte z realno fotografijo MMA treninga (npr. jakob-ring.jpg) -->
+            <img src="assets/images/mma-program.svg" alt="Trening MMA Ljubljana Črnuče" loading="lazy">
+          </div>
+          <div class="program-card-body">
+            <div class="program-title">
+              <h3 class="heading-card">MMA</h3>
+            </div>
+            <div class="program-level">
+              <span>● Za začetnike in napredne</span>
+            </div>
+            <p class="program-desc">
+              Najbolj celovit borilni šport: udarci iz boksa in muay thaija, rušenja iz rokoborbe ter parter. Imamo ločeno skupino za popolne začetnike!
+            </p>
+            <div class="program-footer-actions">
+              <a href="mma.html" class="btn btn-secondary btn-sm" style="flex: 1;">Več o MMA</a>
+              <button type="button" class="btn btn-primary btn-sm btn-booking-trigger" data-program="MMA">
+                Rezerviraj brezplačen trening
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Boks Card -->
+        <article class="program-card">
+          <div class="program-image-wrap">
+            <span class="program-badge">BOKS</span>
+            <!-- FOTO: Zamenjajte z realno fotografijo boksa (npr. tomi.jpg) -->
+            <img src="assets/images/boks-program.svg" alt="Trening boksa Ljubljana" loading="lazy">
+          </div>
+          <div class="program-card-body">
+            <div class="program-title">
+              <h3 class="heading-card">Boks &amp; Boks dame</h3>
+            </div>
+            <div class="program-level">
+              <span>● Za začetnike in napredne</span>
+            </div>
+            <p class="program-desc">
+              Klasična šola boksa z dolgoletno tradicijo: tehnika udarcev, delo na vrečah, ščitnikih in sparingi. Ločena skupina tudi za dekleta!
+            </p>
+            <div class="program-footer-actions">
+              <a href="boks.html" class="btn btn-secondary btn-sm" style="flex: 1;">Več o boksu</a>
+              <button type="button" class="btn btn-primary btn-sm btn-booking-trigger" data-program="Boks">
+                Rezerviraj brezplačen trening
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Kickbox in Muay Thai Card -->
+        <article class="program-card">
+          <div class="program-image-wrap">
+            <span class="program-badge">KICKBOX / MT</span>
+            <!-- FOTO: Zamenjajte z realno fotografijo tajskega boksa (npr. luka-martinec.jpg) -->
+            <img src="assets/images/muaythai-program.svg" alt="Trening Kickbox in Muay Thai Ljubljana" loading="lazy">
+          </div>
+          <div class="program-card-body">
+            <div class="program-title">
+              <h3 class="heading-card">Kickbox in Muay Thai</h3>
+            </div>
+            <div class="program-level">
+              <span>● Za začetnike in napredne</span>
+            </div>
+            <p class="program-desc">
+              Tajski boks za MMA z dinamičnimi nožnimi udarci, koleni, komolci in klinčem. Odlično za gradnjo eksplozivnosti in obrambe.
+            </p>
+            <div class="program-footer-actions">
+              <a href="kickbox.html" class="btn btn-secondary btn-sm" style="flex: 1;">Več o Muay Thai</a>
+              <button type="button" class="btn btn-primary btn-sm btn-booking-trigger" data-program="Kickbox &amp; Muay Thai">
+                Rezerviraj brezplačen trening
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Dodatna povezava do otroškega boksa -->
+      <div style="margin-top: 2rem; background: var(--bg-surface-1); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;">
+        <div>
+          <strong style="color: #ffffff; font-size: 1.05rem;">Iščete trening za najmlajše?</strong>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.2rem;">Vodimo prilagojen boks za otroke od 5. do 12. leta starosti z licencirano pedagoginjo Ano Lipovšek.</p>
+        </div>
+        <a href="otroci.html" class="btn btn-secondary btn-sm">Oglej si program za otroke →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. WHY T'N'T GYM (4 BENEFIT CARDS)
+       ========================================================================= -->
+  <section class="section" style="background: var(--bg-surface-1); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Zakaj T'n'T Gym</span>
+        <h2 class="heading-section">Zakaj izbrati naš klub v Črnučah?</h2>
+        <p class="lead">Klub, kjer profesionalni borci in začetniki trenirajo z ramo ob rami z medsebojnim spoštovanjem.</p>
+      </div>
+
+      <div class="grid-4">
+        <!-- Benefit 1 -->
+        <div class="benefit-card">
+          <div class="benefit-icon">🏆</div>
+          <h3 class="benefit-title">Izkušeni trenerji</h3>
+          <p class="benefit-desc">
+            Trenerji z več kot desetletjem tekmovalnih izkušenj in mentorji šampionom, kot so Jakob Nedoh (PFL), Bor Bratovž in Uroš Jurišič.
+          </p>
+        </div>
+
+        <!-- Benefit 2 -->
+        <div class="benefit-card">
+          <div class="benefit-icon">🎯</div>
+          <h3 class="benefit-title">Programi za vse nivoje</h3>
+          <p class="benefit-desc">
+            Posebne skupine za začetnike, rekreativce, ženski boks, otroke in tekmovalce. Intenzivnost vedno prilagajamo vašim zmožnostim.
+          </p>
+        </div>
+
+        <!-- Benefit 3 -->
+        <div class="benefit-card">
+          <div class="benefit-icon">🎁</div>
+          <h3 class="benefit-title">Prvi trening brezplačen</h3>
+          <p class="benefit-desc">
+            Brez vezave ali skritih stroškov. Pridite, preizkusite trening, spoznajte ekipo in se šele nato odločite za vpis.
+          </p>
+        </div>
+
+        <!-- Benefit 4 -->
+        <div class="benefit-card">
+          <div class="benefit-icon">🤝</div>
+          <h3 class="benefit-title">Prijazna klubska atmosfera</h3>
+          <p class="benefit-desc">
+            Brez napihnjenih egov ali ustrahovanja. Spodbujamo tovarištvo, varnost pri sparingih in medsebojno podporo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. SCHEDULE PREVIEW (INTERACTIVE TIMETABLE)
+       ========================================================================= -->
+  <section class="section" id="urnik">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Urnik treningov</span>
+        <h2 class="heading-section">Tedenski urnik vodenih vadb</h2>
+        <p class="lead">Izberite šport ali pregledajte celoten tedenski razpored. Kliknite na posamezen termin za hitro brezplačno prijavo!</p>
+      </div>
+
+      <!-- Sport Filter Buttons -->
+      <div class="schedule-controls" role="group" aria-label="Filter po športu">
+        <button class="filter-btn active" data-sport="all">Vsi treningi</button>
+        <button class="filter-btn" data-sport="mma">MMA</button>
+        <button class="filter-btn" data-sport="bjj">BJJ</button>
+        <button class="filter-btn" data-sport="box">Boks &amp; Dame</button>
+        <button class="filter-btn" data-sport="mt">Muay Thai</button>
+        <button class="filter-btn" data-sport="kids">Otroci</button>
+      </div>
+
+      <!-- Timetable Dynamic Mount Container -->
+      <div class="timetable-mount">
+        <!-- Rendered via js/main.js & js/schedule-data.js -->
+        <p style="text-align: center; color: var(--text-muted); padding: 2rem;">Nalaganje urnika...</p>
+      </div>
+
+      <div style="margin-top: 2rem; text-align: center; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.5rem;">
+        <span style="font-size: 0.9rem; color: var(--text-secondary);">
+          📍 Vsi treningi potekajo v dvoranah T'n'T Gym, Cesta 24. junija 23, Črnuče.
+        </span>
+        <a href="urnik.html" class="btn btn-secondary btn-sm">Odpri celotno stran urnika s podrobnostmi →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. BEGINNERS SECTION
+       ========================================================================= -->
+  <section class="section" id="zacetniki">
+    <div class="container">
+      <div class="beginners-banner">
+        <div style="max-width: 780px;">
+          <span class="section-tag" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #ffffff;">Za popolne začetnike</span>
+          <h2 class="heading-section" style="margin-top: 0.5rem;">
+            Nisi še treniral borilnih veščin? Ni problema.
+          </h2>
+          <p class="lead" style="margin-top: 1rem; color: #e2e8f0;">
+            Večina naših članov je začela brez predhodnih izkušenj. Na prvem treningu potrebuješ le športne hlače in majico. Opremo lahko prineseš kasneje.
+          </p>
+
+          <div class="checklist">
+            <div class="checklist-item">
+              <svg class="checklist-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <div>
+                <strong style="display: block; font-size: 0.95rem;">Le majica in kratke hlače</strong>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);">Treniramo bosi ali v nogavicah na čistih tatamijih.</span>
+              </div>
+            </div>
+            <div class="checklist-item">
+              <svg class="checklist-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <div>
+                <strong style="display: block; font-size: 0.95rem;">Brezplačna izposoja</strong>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);">Za prvič si boksarske rokavice brezplačno sposodiš pri nas.</span>
+              </div>
+            </div>
+            <div class="checklist-item">
+              <svg class="checklist-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <div>
+                <strong style="display: block; font-size: 0.95rem;">Postopno in varno</strong>
+                <span style="font-size: 0.85rem; color: var(--text-secondary);">Začetnikov nikoli ne mečemo v trde sparinge brez znanja.</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <button type="button" class="btn btn-primary btn-lg btn-booking-trigger" data-program="">
+              Prijava na brezplačen prvi trening
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. COACHES SECTION
+       ========================================================================= -->
+  <section class="section" id="trenerji">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Strokovno vodstvo</span>
+        <h2 class="heading-section">Spoznaj naše trenerje</h2>
+        <p class="lead">V T'n'T Gymu trenirate z ljudmi, ki živijo za borilne športe in svoja znanja z veseljem prenašajo na nove generacije.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Coach 1: Gašper Sodnik -->
+        <article class="coach-card">
+          <div class="coach-photo-wrap">
+            <span class="coach-discipline-tag">MMA</span>
+            <img src="assets/images/coach-gasper.jpg" alt="Gašper Sodnik, trener MMA" loading="lazy">
+          </div>
+          <div class="coach-body">
+            <h3 class="coach-name">Gašper Sodnik</h3>
+            <span class="coach-role">Glavni trener MMA</span>
+            <p class="coach-bio">
+              Več kot 10 let izkušenj na področju MMA-ja. Leta 2019 je treniral tudi v prestižnem Tristar Gymu v Montrealu pod mentorstvom Firasa Zahabija. Tekmoval v slovenski MMA ligi (6 amaterskih borb).
+            </p>
+            <div class="coach-credentials">
+              <strong>Znanje:</strong> Tehnika v kletki, rušenja ob ograji, prehodi v parter.
+            </div>
+            <a href="https://www.instagram.com/tntcrnuce/" target="_blank" rel="noopener" class="coach-social">
+              📷 @tntcrnuce (Instagram)
+            </a>
+          </div>
+        </article>
+
+        <!-- Coach 2: Žiga Očko -->
+        <article class="coach-card">
+          <div class="coach-photo-wrap">
+            <span class="coach-discipline-tag" style="background: #3b82f6;">BJJ</span>
+            <img src="assets/images/coach-ziga.jpg" alt="Žiga Očko, trener brazilskega jiu-jitsa" loading="lazy">
+          </div>
+          <div class="coach-body">
+            <h3 class="coach-name">Žiga Očko</h3>
+            <span class="coach-role">Glavni trener BJJ</span>
+            <p class="coach-bio">
+              Diplomiran športni trener in certificiran maser, ki BJJ aktivno trenira od leta 2017. Izkušen in uspešen tekmovalec, ki vodi tehnično izpopolnjene treninge borbe v parterju.
+            </p>
+            <div class="coach-credentials">
+              <strong>Znanje:</strong> No-Gi grappling, taktične pozicije, varovanje sklepov.
+            </div>
+            <a href="https://www.instagram.com/tntcrnuce/" target="_blank" rel="noopener" class="coach-social">
+              📷 @tntcrnuce (Instagram)
+            </a>
+          </div>
+        </article>
+
+        <!-- Coach 3: Tomislav Šude -->
+        <article class="coach-card">
+          <div class="coach-photo-wrap">
+            <span class="coach-discipline-tag" style="background: #f59e0b;">BOKS</span>
+            <img src="assets/images/coach-tomi.jpg" alt="Tomislav Šude, trener boksa" loading="lazy">
+          </div>
+          <div class="coach-body">
+            <h3 class="coach-name">Tomislav Šude</h3>
+            <span class="coach-role">Trener boksa &amp; ustanovitelj</span>
+            <p class="coach-bio">
+              Tomi je dolgoletno srce kluba. Pod njegovim mentorstvom so kalili svoje veščine številni slovenski profesionalni borci svetovnega kova: Jakob Nedoh, Bor Bratovž, Marko Drmonjič, Uroš Jurišič...
+            </p>
+            <div class="coach-credentials">
+              <strong>Znanje:</strong> Klasični boks, fokus na delu nog, timing in mentalna priprava.
+            </div>
+            <a href="https://www.instagram.com/tntcrnuce/" target="_blank" rel="noopener" class="coach-social">
+              📷 @tntcrnuce (Instagram)
+            </a>
+          </div>
+        </article>
+
+        <!-- Coach 4: Luka Martinec -->
+        <article class="coach-card">
+          <div class="coach-photo-wrap">
+            <span class="coach-discipline-tag" style="background: #10b981;">MUAY THAI</span>
+            <img src="assets/images/coach-luka.jpg" alt="Luka Martinec, trener tajskega boksa" loading="lazy">
+          </div>
+          <div class="coach-body">
+            <h3 class="coach-name">Luka Martinec</h3>
+            <span class="coach-role">Trener MMA začetniki &amp; Muay Thai</span>
+            <p class="coach-bio">
+              Uspešen tekmovalec v Muay Thai in MMA. V TnT Gymu že več let z izjemnim pedagoškim pristopom vodi začetniško MMA skupino ter specifične treninge tajskega boksa.
+            </p>
+            <div class="coach-credentials">
+              <strong>Znanje:</strong> Striking osnove, nožna tehnika, timing v klinču.
+            </div>
+            <a href="https://www.instagram.com/tntcrnuce/" target="_blank" rel="noopener" class="coach-social">
+              📷 @tntcrnuce (Instagram)
+            </a>
+          </div>
+        </article>
+
+        <!-- Coach 5: Ana Lipovšek -->
+        <article class="coach-card">
+          <div class="coach-photo-wrap">
+            <span class="coach-discipline-tag" style="background: #ec4899;">OTROCI</span>
+            <img src="assets/images/coach-ana.jpg" alt="Ana Lipovšek, trenerka otroškega boksa" loading="lazy">
+          </div>
+          <div class="coach-body">
+            <h3 class="coach-name">Ana Lipovšek</h3>
+            <span class="coach-role">Trenerka boksa za otroke</span>
+            <p class="coach-bio">
+              Ana vodi specializirane skupine otroškega boksa (4 do 8 let ter 8 do 12 let). Treningi so zasnovani skozi igro, vaje za koordinacijo, spoštovanje in športno disciplino.
+            </p>
+            <div class="coach-credentials">
+              <strong>Znanje:</strong> Športna pedagogika za otroke, motorika in varna igra.
+            </div>
+            <a href="https://www.instagram.com/tntcrnuce/" target="_blank" rel="noopener" class="coach-social">
+              📷 @tntcrnuce (Instagram)
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div style="margin-top: 2rem; text-align: center;">
+        <a href="trenerji.html" class="btn btn-secondary">Podrobnejše biografije in dosežki trenerjev →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. PRICING SECTION
+       ========================================================================= -->
+  <section class="section" id="cenik" style="background: var(--bg-surface-1); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pregledne članarine</span>
+        <h2 class="heading-section">Cenik vadb</h2>
+        <p class="lead">Poštene cene brez skritih vpisnin ali vezave. Prvi trening je vedno brezplačen!</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- 1 Program -->
+        <div class="pricing-card">
+          <h3 class="pricing-title">1 Program</h3>
+          <p class="pricing-sub">Za tiste, ki se želijo posvetiti eni veščini (npr. samo BJJ, samo MMA ali samo boks).</p>
+          <div class="pricing-amount">
+            <span class="price">60 €</span>
+            <span class="period">/ mesec</span>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Vsi redni termini izbranega programa</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Vključeni soboti Open Mat termini</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Brez vezave – plačilo mesec za mesec</span>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-secondary btn-full btn-booking-trigger" data-program="">
+            Rezerviraj brezplačen prvi trening
+          </button>
+        </div>
+
+        <!-- 2 Programa (Featured / Najbolj priljubljeno) -->
+        <div class="pricing-card featured">
+          <span class="pricing-popular-badge">Najbolj priljubljeno</span>
+          <h3 class="pricing-title">2 Programa</h3>
+          <p class="pricing-sub">Kombinacija dveh disciplin (npr. BJJ + MMA ali Boks + Kickbox) s popustom.</p>
+          <div class="pricing-amount">
+            <span class="price">80 €</span>
+            <span class="period">/ mesec</span>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Neomejen obisk dveh poljubnih programov</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Hitrejši celostni napredek v borbi</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Prihranek 40 € mesečno</span>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-primary btn-full btn-booking-trigger" data-program="">
+            Rezerviraj brezplačen prvi trening
+          </button>
+        </div>
+
+        <!-- All Inclusive -->
+        <div class="pricing-card">
+          <h3 class="pricing-title">All Inclusive</h3>
+          <p class="pricing-sub">Popoln dostop do vseh programov in vseh vodenih treningov v klubu.</p>
+          <div class="pricing-amount">
+            <span class="price">120 €</span>
+            <span class="period">/ mesec</span>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Neomejen obisk vseh 5 disciplin</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Idealno za tekmovalce in resne športnike</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Treningi od ponedeljka do sobote</span>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-secondary btn-full btn-booking-trigger" data-program="">
+            Rezerviraj brezplačen prvi trening
+          </button>
+        </div>
+      </div>
+
+      <!-- Dodatne opcije cenika -->
+      <div style="margin-top: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+        <div style="background: var(--bg-surface-2); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem;">
+          <strong style="color: #ffffff;">Otroški boks: 50 € / mesec</strong>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">Prilagojena mladinska vadba 2x tedensko ob ponedeljkih in sredah.</p>
+        </div>
+        <div style="background: var(--bg-surface-2); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem;">
+          <strong style="color: #ffffff;">3 programi: 100 € / mesec</strong>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">Znižana kombinirana članarina za 3 različne discipline.</p>
+        </div>
+        <div style="background: var(--bg-surface-2); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem;">
+          <strong style="color: #ffffff;">Privatni trening: na zahtevo</strong>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">Individualno 1-na-1 delo s trenerjem ali profi borcem po dogovoru.</p>
+        </div>
+      </div>
+
+      <!-- Brezplačen prvi trening opomba -->
+      <div style="margin-top: 2.5rem; text-align: center; background: rgba(255, 59, 48, 0.1); border: 1px solid rgba(255, 59, 48, 0.3); border-radius: var(--radius-md); padding: 1.25rem;">
+        <p style="color: #ffffff; font-weight: 700; font-size: 1.1rem; margin-bottom: 0.25rem;">
+          💡 Ne kupujte mačka v žaklju: Prvi trening je vedno 100% BREZPLAČEN!
+        </p>
+        <span style="color: var(--text-secondary); font-size: 0.9rem;">Pridite, potrenirajte in ocenite vzdušje ter vadbo.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. TESTIMONIALS
+       ========================================================================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Izkušnje članov</span>
+        <h2 class="heading-section">Kaj pravijo tisti, ki trenirajo pri nas</h2>
+        <p class="lead">Pristna mnenja članov, ki so začeli brez izkušenj in v klubu našli kondicijo ter pravo ekipo.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Review 1 -->
+        <article class="testimonial-card">
+          <p class="testimonial-quote">
+            »Pred prihodom sem imel kar nekaj treme, saj sem mislil, da so v borilnih klubih vsi neusmiljeni. V T'n'T-ju je bila izkušnja povsem nasprotna – Žiga in fantje na BJJ-ju so me takoj sprejeli, razložili vsak gib in pazili na varnost. Zdaj ne izpustim nobenega treninga!«
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MG</div>
+            <div>
+              <div class="author-name">Matic G.</div>
+              <div class="author-role">Član BJJ skupine, trenira 1 leto</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 2 -->
+        <article class="testimonial-card">
+          <p class="testimonial-quote">
+            »Boks dame ob ponedeljkih in sredah je zame najboljši odklop po celodnevnem sedenju v pisarni. Trening je intenziven, pridobiš moč, vzdržljivost in samozavest, vzdušje med dekleti pa je super sproščeno in spodbudno.«
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SK</div>
+            <div>
+              <div class="author-name">Sara K.</div>
+              <div class="author-role">Članica ženskega boksa</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Review 3 -->
+        <article class="testimonial-card">
+          <p class="testimonial-quote">
+            »Gašper in Tomi sta vrhunska strokovnjaka. MMA začetniška skupina je odlično strukturirana – najprej se res naučiš varnih osnov stojke in rušenj, preden greš sploh v sparinge. Vrhunska dvorana v Črnučah s kletko in tatamijem!«
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JŽ</div>
+            <div>
+              <div class="author-name">Jan Ž.</div>
+              <div class="author-role">Član MMA skupine</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. FAQ SECTION
+       ========================================================================= -->
+  <section class="section" style="background: var(--bg-surface-1); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Odgovori na vprašanja</span>
+        <h2 class="heading-section">Pogosta vprašanja</h2>
+        <p class="lead">Vse, kar morate vedeti pred svojim prvim obiskom v našem klubu.</p>
+      </div>
+
+      <div class="faq-list">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Kakšno opremo potrebujem za prvi trening?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Na prvih treningih potrebujete le običajno športno opremo: kratke hlače, udobno športno majico ter plastenko vode. Za boks si rokavice prvič brezplačno sposodite v klubu. Ko se odločite za redno vadbo, vam z veseljem svetujemo pri izbiri lastne opreme.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Nimam nobenih izkušenj z borilnimi veščinami. Lahko poskusim?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Seveda! Pravzaprav je velika večina naših članov začela pri nas popolnoma od nič. Treningi so zasnovani tako, da se tehnike učite postopno, trenerji pa vaje prilagodijo vaši trenutni telesni pripravljenosti.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Star sem 35+ / 40+ let, je zame že prepozno?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Nikakor ne. Pri nas trenirajo ljudje vseh starosti – od otrok do rekreativcev v 40-ih in 50-ih letih. Borilne veščine so odličen način za ohranjanje gibljivosti, kardio kondicije in mentalne odpornosti.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Koliko stane prvi trening?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Prvi preizkusni trening je vedno 100% brezplačen. Pridite, se ogrejte, preizkusite vadbo in spoznajte vzdušje. Vpis ni obvezen.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Kje točno se nahaja dvorana in ali imate parkirišče?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Nahajamo se na Cesti 24. junija 23 v Ljubljani (Črnuče), v neposredni bližini obvoznice in trgovskih centrov. Pred objektom je na voljo brezplačno parkirišče za člane.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. LOCATION & CONTACT FORM
+       ========================================================================= -->
+  <section class="section" id="kontakt">
+    <div class="container">
+      <div class="contact-layout">
+        <!-- Contact Info & Map -->
+        <div class="contact-info-panel">
+          <div>
+            <span class="section-tag">Kje smo &amp; kontakt</span>
+            <h2 class="heading-section">Pridruži se nam na treningu v Črnučah</h2>
+            <p class="lead" style="margin-top: 0.5rem;">Za vsa vprašanja glede urnikov, programov ali vpisa nas lahko pokličete ali nam pišete.</p>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-content">
+              <h4>Naslov kluba</h4>
+              <p>Cesta 24. junija 23, 1231 Ljubljana-Črnuče</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div class="info-content">
+              <h4>Telefon</h4>
+              <p><a href="tel:+38631784174">031 784 174 (Toni)</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">✉️</div>
+            <div class="info-content">
+              <h4>Spletna prijava</h4>
+              <p><a href="#bookingModal" class="btn-booking-trigger" data-program="">Rezerviraj brezplačen prvi trening prek obrazca →</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🕒</div>
+            <div class="info-content">
+              <h4>Odpiralni čas treningov</h4>
+              <p>Pon, Tor, Sre, Pet: 16:30 – 21:00<br>Četrtek: 16:00 – 21:00<br>Sobota: 10:00 – 12:30 (Nedelje: zaprto)</p>
+            </div>
+          </div>
+
+          <!-- Embedded Google Map -->
+          <div class="map-container">
+            <iframe 
+              title="Lokacija T'n'T Gym Ljubljana na zemljevidu"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d696.0015509243246!2d14.527222276936673!3d46.0955175833871!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765331bd9e1c84b%3A0x4375884ad07b9b4c!2sT'n'T%20GYM!5e1!3m2!1sen!2sus!4v1692909926583!5m2!1sen!2sus" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Contact & Booking Direct Form -->
+        <div class="contact-form-card">
+          <div style="margin-bottom: 1.5rem;">
+            <h3 style="font-size: 1.5rem; margin-bottom: 0.25rem;">Pošlji povpraševanje ali rezerviraj trening</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Izpolnite obrazec in odgovorili vam bomo v najkrajšem možnem času.</p>
+          </div>
+
+          <form
+            id="generalContactForm"
+            action="https://formspree.io/f/xdealjvo"
+            method="POST"
+            novalidate
+          >
+            <input
+              type="text"
+              name="_gotcha"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+              class="honeypot"
+            >
+
+            <div id="contactErrorBanner" class="form-error-banner" role="alert" aria-live="polite" hidden></div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cName" class="form-label">Ime in priimek *</label>
+                <input type="text" id="cName" name="ime_in_priimek" class="form-control" placeholder="Janez Novak" required>
+              </div>
+              <div class="form-group">
+                <label for="cPhone" class="form-label">Telefon *</label>
+                <input type="tel" id="cPhone" name="telefon" class="form-control" placeholder="041 123 456" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cEmail" class="form-label">E-pošta *</label>
+                <input type="email" id="cEmail" name="email" class="form-control" placeholder="Vpišite svoj e-poštni naslov" required>
+              </div>
+              <div class="form-group">
+                <label for="cProgram" class="form-label">Izberi program *</label>
+                <select id="cProgram" name="program" class="form-control" required>
+                  <option value="" disabled selected>Izberi program ...</option>
+                  <option value="BJJ">BJJ</option>
+                  <option value="MMA">MMA</option>
+                  <option value="Boks">Boks</option>
+                  <option value="Kickbox &amp; Muay Thai">Kickbox &amp; Muay Thai</option>
+                  <option value="Otroški boks">Otroški boks</option>
+                  <option value="Nisem prepričan/-a">Nisem prepričan/-a</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cLevel" class="form-label">Stopnja izkušenj *</label>
+                <select id="cLevel" name="stopnja_izkusenj" class="form-control" required>
+                  <option value="" disabled selected>Izberi stopnjo izkušenj ...</option>
+                  <option value="Popolni začetnik/-ca">Popolni začetnik/-ca</option>
+                  <option value="Nekaj izkušenj">Nekaj izkušenj</option>
+                  <option value="Napredni/-a">Napredni/-a</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="cTime" class="form-label">Želeni dan ali termin</label>
+                <input type="text" id="cTime" name="zeleni_termin" class="form-control" placeholder="npr. Torek ob 16:30 ali čim prej">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="cMessage" class="form-label">Sporočilo</label>
+              <textarea id="cMessage" name="sporocilo" class="form-control" rows="3" placeholder="Želim se prijaviti na brezplačen prvi trening..."></textarea>
+            </div>
+
+            <div class="form-group form-checkbox-group">
+              <input
+                type="checkbox"
+                id="cGdpr"
+                name="privacy_consent"
+                value="da"
+                class="form-checkbox"
+                required
+              >
+              <label for="cGdpr" class="form-checkbox-label">
+                Strinjam se, da T’n’T Gym moje podatke uporabi izključno za odgovor na moje povpraševanje.
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full btn-lg" style="margin-top: 0.5rem;">
+              Pošlji povpraševanje
+            </button>
+          </form>
+
+          <div id="contactSuccessState" class="success-state" role="status" aria-live="polite" hidden>
+            <div class="success-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <p style="color: #ffffff; font-size: 1.05rem; font-weight: 600; line-height: 1.6; margin-bottom: 1.5rem;">
+              Hvala! Tvojo prijavo smo prejeli. Kontaktirali te bomo čim prej za potrditev brezplačnega treninga.
+            </p>
+            <button type="button" id="contactResetBtn" class="btn btn-secondary btn-full">
+              Zapri
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       12. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-col">
+          <span class="brand-logo" style="margin-bottom: 0.75rem;">T’N’T<span class="logo-accent">.</span>GYM</span>
+          <p style="font-size: 0.925rem; line-height: 1.6; max-width: 320px;">
+            Klub borilnih veščin v Ljubljani (Črnuče). Specializirani za BJJ, MMA, boks in muay thai za vse generacije.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/tntcrnuce" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Facebook TnT Gym">
+              FB
+            </a>
+            <a href="https://www.instagram.com/tntcrnuce/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram TnT Gym">
+              IG
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Programi -->
+        <div class="footer-col">
+          <h4>Programi</h4>
+          <nav class="footer-links">
+            <a href="bjj.html">Brazilski jiu-jitsu (BJJ)</a>
+            <a href="mma.html">MMA (Mešane borilne veščine)</a>
+            <a href="boks.html">Boks &amp; Boks dame</a>
+            <a href="kickbox.html">Kickbox in Muay Thai</a>
+            <a href="otroci.html">Boks za otroke</a>
+          </nav>
+        </div>
+
+        <!-- Col 3: Hitre povezave -->
+        <div class="footer-col">
+          <h4>Hitre povezave</h4>
+          <nav class="footer-links">
+            <a href="urnik.html">Urnik treningov</a>
+            <a href="cenik.html">Cenik vadnin</a>
+            <a href="trenerji.html">Naši trenerji</a>
+            <a href="kontakt.html">Kje smo &amp; Lokacija</a>
+            <a href="https://www.fightshop.si" target="_blank" rel="noopener">Fightshop.si (Oprema)</a>
+          </nav>
+        </div>
+
+        <!-- Col 4: Kontakt & CTA -->
+        <div class="footer-col">
+          <h4>Rezerviraj trening</h4>
+          <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+            Preizkusite prvi trening povsem brezplačno in brez kakršnekoli obveznosti.
+          </p>
+          <button type="button" class="btn btn-primary btn-full btn-sm btn-booking-trigger" data-program="">
+            Rezerviraj brezplačen prvi trening
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 T'n'T Gym Ljubljana. Vse pravice pridržane. | Cesta 24. junija 23, 1231 Ljubljana-Črnuče
+        </div>
+        <div style="display: flex; gap: 1.25rem;">
+          <a href="kontakt.html" style="color: var(--text-muted);">Zasebnost</a>
+          <a href="kontakt.html" style="color: var(--text-muted);">Piškotki</a>
+          <a href="tel:+38631784174" style="color: var(--color-brand); font-weight: 600;">031 784 174</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       REUSABLE BOOKING MODAL (FORMSPREE INTEGRATION)
+       ========================================================================= -->
+  <div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog" tabindex="-1">
+      <button type="button" class="modal-close-btn" data-close-modal aria-label="Zapri obrazec">✕</button>
+
+      <!-- Booking Form -->
+      <form
+        id="bookingForm"
+        action="https://formspree.io/f/xdealjvo"
+        method="POST"
+        novalidate
+      >
+        <span class="section-tag" style="margin-bottom: 0.5rem;">Brezplačen preizkus</span>
+        <h2 id="modalTitle" style="font-size: 1.85rem; margin-bottom: 0.5rem;">Rezerviraj brezplačen prvi trening</h2>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+          Izpolni spodnja polja. Po oddaji te kontaktiramo za potrditev termina in kratek nasvet glede opreme.
+        </p>
+
+        <input
+          type="text"
+          name="_gotcha"
+          tabindex="-1"
+          autocomplete="off"
+          aria-hidden="true"
+          class="honeypot"
+        >
+
+        <div id="bookingErrorBanner" class="form-error-banner" role="alert" aria-live="polite" hidden></div>
+
+        <div class="form-group">
+          <label for="booking-ime" class="form-label">Ime in priimek *</label>
+          <input
+            type="text"
+            id="booking-ime"
+            name="ime_in_priimek"
+            class="form-control"
+            placeholder="npr. Luka Kovač"
+            autocomplete="name"
+            required
+          >
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="booking-telefon" class="form-label">Telefon *</label>
+            <input
+              type="tel"
+              id="booking-telefon"
+              name="telefon"
+              class="form-control"
+              placeholder="041 123 456"
+              autocomplete="tel"
+              required
+            >
+          </div>
+          <div class="form-group">
+            <label for="booking-email" class="form-label">E-pošta *</label>
+            <input
+              type="email"
+              id="booking-email"
+              name="email"
+              class="form-control"
+              placeholder="Vpišite svoj e-poštni naslov"
+              autocomplete="email"
+              required
+            >
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="booking-program" class="form-label">Izberi program *</label>
+            <select
+              id="booking-program"
+              name="program"
+              class="form-control"
+              required
+            >
+              <option value="" disabled selected>Izberi program ...</option>
+              <option value="BJJ">BJJ</option>
+              <option value="MMA">MMA</option>
+              <option value="Boks">Boks</option>
+              <option value="Kickbox &amp; Muay Thai">Kickbox &amp; Muay Thai</option>
+              <option value="Otroški boks">Otroški boks</option>
+              <option value="Nisem prepričan/-a">Nisem prepričan/-a</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="booking-izkusnje" class="form-label">Stopnja izkušenj *</label>
+            <select
+              id="booking-izkusnje"
+              name="stopnja_izkusenj"
+              class="form-control"
+              required
+            >
+              <option value="" disabled selected>Izberi stopnjo izkušenj ...</option>
+              <option value="Popolni začetnik/-ca">Popolni začetnik/-ca</option>
+              <option value="Nekaj izkušenj">Nekaj izkušenj</option>
+              <option value="Napredni/-a">Napredni/-a</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="booking-termin" class="form-label">Želeni dan ali termin</label>
+          <input
+            type="text"
+            id="booking-termin"
+            name="zeleni_termin"
+            class="form-control"
+            placeholder="npr. Torek ob 16:30 ali čim prej"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="booking-sporocilo" class="form-label">Sporočilo</label>
+          <textarea
+            id="booking-sporocilo"
+            name="sporocilo"
+            class="form-control"
+            rows="2"
+            placeholder="Morebitno vprašanje za trenerja..."
+          ></textarea>
+        </div>
+
+        <div class="form-group form-checkbox-group">
+          <input
+            type="checkbox"
+            id="booking-gdpr"
+            name="privacy_consent"
+            value="da"
+            class="form-checkbox"
+            required
+          >
+          <label for="booking-gdpr" class="form-checkbox-label">
+            Strinjam se, da T’n’T Gym moje podatke uporabi izključno za odgovor na moje povpraševanje.
+          </label>
+        </div>
+
+        <button type="submit" id="bookingSubmitBtn" class="btn btn-primary btn-full btn-lg" style="margin-top: 0.5rem;">
+          Potrdi rezervacijo
+        </button>
+        <p style="text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.75rem;">
+          Brez obveznosti. Prvi trening je 100% brezplačen.
+        </p>
+      </form>
+
+      <!-- Success State -->
+      <div id="bookingSuccessState" class="success-state" role="status" aria-live="polite" hidden>
+        <div class="success-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <p style="color: #ffffff; font-size: 1.05rem; font-weight: 600; line-height: 1.6; margin-bottom: 1.5rem;">
+          Hvala! Tvojo prijavo smo prejeli. Kontaktirali te bomo čim prej za potrditev brezplačnega treninga.
+        </p>
+        <button type="button" class="btn btn-secondary btn-full" data-close-modal>
+          Zapri
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/schedule-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urnik treningov | T'n'T Gym Ljubljana (Črnuče)</title>
+  <meta name="description" content="Preveri tedenski urnik vodenih treningov za BJJ, MMA, boks, kickbox in boks za otroke v T'n'T Gym Ljubljana (Črnuče). Rezerviraj brezplačen prvi trening!">
+  <meta name="keywords" content="urnik BJJ Ljubljana, urnik MMA Ljubljana, urnik boks Ljubljana, treningi Črnuče">
+  <link rel="canonical" href="https://www.tnt-gym.si/urnik.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo">
+        <span>T’N’T<span class="logo-accent">.</span>GYM</span>
+        <span class="brand-badge">URNIK</span>
+      </a>
+      <nav class="nav-desktop">
+        <a href="index.html" class="nav-link">Domov</a>
+        <a href="bjj.html" class="nav-link">BJJ</a>
+        <a href="mma.html" class="nav-link">MMA</a>
+        <a href="boks.html" class="nav-link">Boks</a>
+        <a href="kickbox.html" class="nav-link">Kickbox</a>
+        <a href="urnik.html" class="nav-link active">Urnik</a>
+        <a href="cenik.html" class="nav-link">Cenik</a>
+        <a href="trenerji.html" class="nav-link">Trenerji</a>
+        <a href="kontakt.html" class="nav-link">Kontakt</a>
+      </nav>
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button type="button" class="btn btn-primary btn-sm btn-booking-trigger" data-program="">
+          Rezerviraj brezplačen prvi trening
+        </button>
+        <button class="menu-toggle" aria-label="Meni"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav-drawer">
+    <div>
+      <span class="brand-logo">T’N’T<span class="logo-accent">.</span>GYM</span>
+      <nav class="mobile-nav-links" style="margin-top: 1.5rem;">
+        <a href="index.html" class="mobile-nav-link">Domov</a>
+        <a href="bjj.html" class="mobile-nav-link">BJJ</a>
+        <a href="mma.html" class="mobile-nav-link">MMA</a>
+        <a href="boks.html" class="mobile-nav-link">Boks</a>
+        <a href="kickbox.html" class="mobile-nav-link">Kickbox &amp; Muay Thai</a>
+        <a href="otroci.html" class="mobile-nav-link">Otroški boks</a>
+        <a href="urnik.html" class="mobile-nav-link active">Urnik</a>
+        <a href="cenik.html" class="mobile-nav-link">Cenik</a>
+        <a href="trenerji.html" class="mobile-nav-link">Trenerji</a>
+        <a href="kontakt.html" class="mobile-nav-link">Kontakt</a>
+      </nav>
+    </div>
+    <div style="margin-top: 2rem;">
+      <button type="button" class="btn btn-primary btn-full btn-booking-trigger" data-program="">
+        Rezerviraj brezplačen trening
+      </button>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="section" style="padding-top: var(--space-4xl); padding-bottom: var(--space-2xl);">
+    <div class="container text-center">
+      <span class="section-tag">Tedenski razpored</span>
+      <h1 class="heading-hero">URNIK TRENINGOV</h1>
+      <p class="lead" style="max-width: 680px; margin: 1rem auto 0 auto;">
+        Vsi vodeni treningi v dvoranah T'n'T Gym (Cesta 24. junija 23, Črnuče). Kliknite na katerikoli termin za brezplačno prijavo.
+      </p>
+
+      <!-- Filter Buttons -->
+      <div class="schedule-controls" style="margin-top: 2rem;">
+        <button class="filter-btn active" data-sport="all">Vsi treningi</button>
+        <button class="filter-btn" data-sport="mma">MMA</button>
+        <button class="filter-btn" data-sport="bjj">BJJ (Brazilski Jiu-Jitsu)</button>
+        <button class="filter-btn" data-sport="box">Boks &amp; Boks dame</button>
+        <button class="filter-btn" data-sport="mt">Muay Thai</button>
+        <button class="filter-btn" data-sport="kids">Otroški boks</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timetable Section -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <!-- Timetable Mount Target -->
+      <div class="timetable-mount">
+        <!-- Rendered by js/main.js -->
+      </div>
+
+      <!-- Barvna legenda -->
+      <div style="margin-top: 2rem; background: var(--bg-surface-1); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem; display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; align-items: center; font-size: 0.85rem;">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="width: 14px; height: 14px; border-radius: 3px; background: #ef4444;"></span>
+          <span>MMA &amp; Začetniki</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="width: 14px; height: 14px; border-radius: 3px; background: #3b82f6;"></span>
+          <span>BJJ (No-Gi Grappling)</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="width: 14px; height: 14px; border-radius: 3px; background: #f59e0b;"></span>
+          <span>Boks &amp; Boks dame</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="width: 14px; height: 14px; border-radius: 3px; background: #10b981;"></span>
+          <span>Muay Thai za MMA</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="width: 14px; height: 14px; border-radius: 3px; background: #ec4899;"></span>
+          <span>Boks otroci</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="width: 14px; height: 14px; border-radius: 3px; background: #8b5cf6;"></span>
+          <span>Odprt trening (Open Mat)</span>
+        </div>
+      </div>
+
+      <!-- Koristna navodila za prvi obisk -->
+      <div style="margin-top: 3rem; background: var(--bg-surface-2); border: 1px solid var(--border-strong); border-radius: var(--radius-lg); padding: 2rem;">
+        <h3 style="font-size: 1.4rem; margin-bottom: 1rem; color: #ffffff;">Navodila za vaš prvi obisk</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+          <div>
+            <strong style="color: var(--color-brand); display: block; margin-bottom: 0.25rem;">1. Pridite 10 minut prej</strong>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Da se v miru preoblečete v garderobi in spoznate trenerja pred začetkom ogrevanja.</p>
+          </div>
+          <div>
+            <strong style="color: var(--color-brand); display: block; margin-bottom: 0.25rem;">2. Enostavna oprema</strong>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Potrebujete le kratke športne hlače, majico in vodo. Vse rokavice si lahko brezplačno sposodite pri nas.</p>
+          </div>
+          <div>
+            <strong style="color: var(--color-brand); display: block; margin-bottom: 0.25rem;">3. Brezplačen parkirni prostor</strong>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Parkiranje je brezplačno neposredno pred dvorano na Cesti 24. junija 23 v Črnučah.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section" style="background: var(--bg-surface-1); text-align: center; border-top: 1px solid var(--border-subtle);">
+    <div class="container">
+      <h2 style="font-size: 2.2rem; margin-bottom: 0.75rem;">Si izbral/-a svoj termin?</h2>
+      <p style="color: var(--text-secondary); max-width: 540px; margin: 0 auto 1.5rem auto;">
+        Prvi trening je brezplačen. Rezervirajte svoje mesto prek obrazca in odgovorili vam bomo s potrditvijo.
+      </p>
+      <button type="button" class="btn btn-primary btn-lg btn-booking-trigger" data-program="">
+        Rezerviraj brezplačen prvi trening
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <div>&copy; 2026 T'n'T Gym Ljubljana. Urnik. | Cesta 24. junija 23, Črnuče</div>
+      <div><a href="index.html" style="color: var(--color-brand);">Nazaj na prvo stran</a></div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       REUSABLE BOOKING MODAL (FORMSPREE INTEGRATION)
+       ========================================================================= -->
+  <div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog" tabindex="-1">
+      <button type="button" class="modal-close-btn" data-close-modal aria-label="Zapri obrazec">✕</button>
+
+      <form
+        id="bookingForm"
+        action="https://formspree.io/f/xdealjvo"
+        method="POST"
+        novalidate
+      >
+        <span class="section-tag" style="margin-bottom: 0.5rem;">Brezplačen preizkus</span>
+        <h2 id="modalTitle" style="font-size: 1.85rem; margin-bottom: 0.5rem;">Rezerviraj brezplačen prvi trening</h2>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+          Izpolni spodnja polja. Po oddaji te kontaktiramo za potrditev termina in kratek nasvet glede opreme.
+        </p>
+
+        <input
+          type="text"
+          name="_gotcha"
+          tabindex="-1"
+          autocomplete="off"
+          aria-hidden="true"
+          class="honeypot"
+        >
+
+        <div id="bookingErrorBanner" class="form-error-banner" role="alert" aria-live="polite" hidden></div>
+
+        <div class="form-group">
+          <label for="booking-ime" class="form-label">Ime in priimek *</label>
+          <input
+            type="text"
+            id="booking-ime"
+            name="ime_in_priimek"
+            class="form-control"
+            placeholder="npr. Luka Kovač"
+            autocomplete="name"
+            required
+          >
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="booking-telefon" class="form-label">Telefon *</label>
+            <input
+              type="tel"
+              id="booking-telefon"
+              name="telefon"
+              class="form-control"
+              placeholder="041 123 456"
+              autocomplete="tel"
+              required
+            >
+          </div>
+          <div class="form-group">
+            <label for="booking-email" class="form-label">E-pošta *</label>
+            <input
+              type="email"
+              id="booking-email"
+              name="email"
+              class="form-control"
+              placeholder="Vpišite svoj e-poštni naslov"
+              autocomplete="email"
+              required
+            >
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="booking-program" class="form-label">Izberi program *</label>
+            <select
+              id="booking-program"
+              name="program"
+              class="form-control"
+              required
+            >
+              <option value="" disabled selected>Izberi program ...</option>
+              <option value="BJJ">BJJ</option>
+              <option value="MMA">MMA</option>
+              <option value="Boks">Boks</option>
+              <option value="Kickbox &amp; Muay Thai">Kickbox &amp; Muay Thai</option>
+              <option value="Otroški boks">Otroški boks</option>
+              <option value="Nisem prepričan/-a">Nisem prepričan/-a</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="booking-izkusnje" class="form-label">Stopnja izkušenj *</label>
+            <select
+              id="booking-izkusnje"
+              name="stopnja_izkusenj"
+              class="form-control"
+              required
+            >
+              <option value="" disabled selected>Izberi stopnjo izkušenj ...</option>
+              <option value="Popolni začetnik/-ca">Popolni začetnik/-ca</option>
+              <option value="Nekaj izkušenj">Nekaj izkušenj</option>
+              <option value="Napredni/-a">Napredni/-a</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="booking-termin" class="form-label">Želeni dan ali termin</label>
+          <input
+            type="text"
+            id="booking-termin"
+            name="zeleni_termin"
+            class="form-control"
+            placeholder="npr. Torek ob 16:30 ali čim prej"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="booking-sporocilo" class="form-label">Sporočilo</label>
+          <textarea
+            id="booking-sporocilo"
+            name="sporocilo"
+            class="form-control"
+            rows="2"
+            placeholder="Morebitno vprašanje za trenerja..."
+          ></textarea>
+        </div>
+
+        <div class="form-group form-checkbox-group">
+          <input
+            type="checkbox"
+            id="booking-gdpr"
+            name="privacy_consent"
+            value="da"
+            class="form-checkbox"
+            required
+          >
+          <label for="booking-gdpr" class="form-checkbox-label">
+            Strinjam se, da T’n’T Gym moje podatke uporabi izključno za odgovor na moje povpraševanje.
+          </label>
+        </div>
+
+        <button type="submit" id="bookingSubmitBtn" class="btn btn-primary btn-full btn-lg" style="margin-top: 0.5rem;">
+          Potrdi rezervacijo
+        </button>
+        <p style="text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.75rem;">
+          Brez obveznosti. Prvi trening je 100% brezplačen.
+        </p>
+      </form>
+
+      <div id="bookingSuccessState" class="success-state" role="status" aria-live="polite" hidden>
+        <div class="success-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <p style="color: #ffffff; font-size: 1.05rem; font-weight: 600; line-height: 1.6; margin-bottom: 1.5rem;">
+          Hvala! Tvojo prijavo smo prejeli. Kontaktirali te bomo čim prej za potrditev brezplačnega treninga.
+        </p>
+        <button type="button" class="btn btn-secondary btn-full" data-close-modal>
+          Zapri
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/schedule-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
