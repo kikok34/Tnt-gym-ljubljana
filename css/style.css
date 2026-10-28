@@ -147,7 +147,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: clamp(2rem, 7.2vw, 4.25rem);
   font-weight: 800;
   line-height: 1.08;
-  margin-top: 0.5rem;
 }
 
 .heading-section {
@@ -1773,7 +1772,7 @@ body.modal-open {
 .page-intro,
 .section.page-intro {
   padding-top: 2.5rem;
-  padding-bottom: 1.75rem;
+  padding-bottom: 2rem;
   position: relative;
 }
 
