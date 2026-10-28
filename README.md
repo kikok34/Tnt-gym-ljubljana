@@ -37,7 +37,7 @@ tnt-gym-ljubljana/
         ├── coach-ziga.svg
         ├── coach-tomi.svg
         ├── coach-luka.svg
-        └── coach-ana.svg
+        └── anita-krapez-trening.jpg
 ```
 
 ---
@@ -67,7 +67,7 @@ Vse slike v mapi `assets/images/` so trenutno izdelane kot visoko kakovostni SVG
 | **Žiga Očko** | `assets/images/coach-ziga.jpg` | `img/tnt/ziga.jpg` |
 | **Tomislav Šude** | `assets/images/coach-tomi.jpg` | `img/tnt/tomi.jpg` |
 | **Luka Martinec** | `assets/images/coach-luka.jpg` | `img/tnt/luka-martinec.jpg` |
-| **Ana Lipovšek** | `assets/images/coach-ana.jpg` | `img/tnt/ana.jpg` |
+| **Anita Krapež** | `assets/images/anita-krapez-trening.jpg` | Foto s treninga |
 
 ---
 

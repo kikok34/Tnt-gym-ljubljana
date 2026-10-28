@@ -15,7 +15,7 @@ const SCHEDULE_DATA = [
     sport: "kids",
     title: "Boks otroci",
     sub: "od 5 do 12 let",
-    coach: "Ana Lipovšek",
+    coach: "Anita Krapež",
     level: "Otroci / Začetniki",
     location: "Glavna dvorana"
   },
@@ -96,7 +96,7 @@ const SCHEDULE_DATA = [
     sport: "kids",
     title: "Boks otroci",
     sub: "od 5 do 12 let",
-    coach: "Ana Lipovšek",
+    coach: "Anita Krapež",
     level: "Otroci / Začetniki",
     location: "Glavna dvorana"
   },

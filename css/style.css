@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-desktop {
   display: none;
   align-items: center;
-  gap: 1.35rem;
+  gap: clamp(0.7rem, 1.1vw, 1.25rem);
 }
 
 @media (min-width: 1080px) {
