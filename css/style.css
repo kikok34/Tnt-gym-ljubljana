@@ -1554,6 +1554,7 @@ select.form-control {
 
 /* Form Validation & Submission Error Banner */
 .form-error-banner {
+  display: none;
   background: rgba(255, 59, 48, 0.14);
   border: 1px solid rgba(255, 59, 48, 0.5);
   border-left: 4px solid var(--color-brand);
@@ -1565,7 +1566,12 @@ select.form-control {
   margin-bottom: var(--space-md);
 }
 
-.form-error-banner[hidden] {
+.form-error-banner:not([hidden]):not(:empty) {
+  display: block;
+}
+
+.form-error-banner[hidden],
+.form-error-banner:empty {
   display: none !important;
 }
 
@@ -1768,12 +1774,22 @@ body.modal-open {
   }
 }
 
-/* Reusable Page Intro Section (Consistent Top Spacing Across Subpages) */
+/* Reusable Page Intro Section (Consistent Alignment & Spacing Across Informational Pages) */
 .page-intro,
 .section.page-intro {
   padding-top: 2.5rem;
   padding-bottom: 2rem;
   position: relative;
+  text-align: left;
+}
+
+.page-intro .lead {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.page-intro .schedule-controls {
+  justify-content: flex-start;
 }
 
 @media (min-width: 768px) {
@@ -1781,6 +1797,10 @@ body.modal-open {
   .section.page-intro {
     padding-top: var(--space-4xl);
     padding-bottom: var(--space-2xl);
+  }
+
+  .page-intro .schedule-controls {
+    justify-content: flex-start;
   }
 }
 

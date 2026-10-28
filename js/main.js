@@ -384,9 +384,13 @@ function attachFormspreeHandler(form, errorBanner, successState) {
       });
 
       if (response.ok) {
-        // 1. Reset the form
+        // 1. Reset the form & clear error banner
         form.reset();
         form.querySelectorAll(".is-invalid").forEach(el => el.classList.remove("is-invalid"));
+        if (errorBanner) {
+          errorBanner.hidden = true;
+          errorBanner.textContent = "";
+        }
 
         if (submitBtn) {
           submitBtn.disabled = false;
@@ -462,9 +466,14 @@ function initBookingModal() {
   const dialog = modal.querySelector(".modal-dialog");
   const closeBtns = modal.querySelectorAll("[data-close-modal]");
   const form = document.getElementById("bookingForm");
-  const errorBanner = document.getElementById("bookingErrorBanner");
+  const errorBanner = document.getElementById("bookingErrorBanner") || (form ? form.querySelector(".form-error-banner") : null);
   const successState = document.getElementById("bookingSuccessState");
   let lastFocusedTrigger = null;
+
+  if (errorBanner) {
+    errorBanner.hidden = true;
+    errorBanner.textContent = "";
+  }
 
   const closeModal = () => {
     modal.classList.remove("open");
@@ -677,14 +686,23 @@ function initContactForm() {
   const contactForm = document.getElementById("generalContactForm");
   if (!contactForm) return;
 
-  const errorBanner = document.getElementById("contactErrorBanner");
+  const errorBanner = document.getElementById("contactErrorBanner") || contactForm.querySelector(".form-error-banner");
   const successState = document.getElementById("contactSuccessState");
+
+  if (errorBanner) {
+    errorBanner.hidden = true;
+    errorBanner.textContent = "";
+  }
 
   attachFormspreeHandler(contactForm, errorBanner, successState);
 
   const resetBtn = document.getElementById("contactResetBtn");
   if (resetBtn) {
     resetBtn.addEventListener("click", () => {
+      if (errorBanner) {
+        errorBanner.hidden = true;
+        errorBanner.textContent = "";
+      }
       if (successState) {
         successState.hidden = true;
         successState.classList.remove("visible");
