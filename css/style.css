@@ -147,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: clamp(2rem, 7.2vw, 4.25rem);
   font-weight: 800;
   line-height: 1.08;
+  margin-top: 0.5rem;
 }
 
 .heading-section {
@@ -1765,6 +1766,22 @@ body.modal-open {
 @media (min-width: 768px) {
   .program-hero {
     padding: var(--space-4xl) 0 var(--space-2xl) 0;
+  }
+}
+
+/* Reusable Page Intro Section (Consistent Top Spacing Across Subpages) */
+.page-intro,
+.section.page-intro {
+  padding-top: 2.5rem;
+  padding-bottom: 1.75rem;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .page-intro,
+  .section.page-intro {
+    padding-top: var(--space-4xl);
+    padding-bottom: var(--space-2xl);
   }
 }
 
